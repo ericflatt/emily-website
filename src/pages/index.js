@@ -1,29 +1,45 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import "../styles/App.scss"
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+// import Seo from "../components/seo"
 
 const IndexPage = () => (
-  <Layout>
-    <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
-  </Layout>
+  <div className="hero">
+    <div className="container">
+      <div className="hero-nav">
+        <div>
+          <h1 className="selected-works">Selected Works</h1>
+          <ol className="hero-list">
+            <Link className="hero-link" to="/juniorprom">
+              <li>JUNIOR PROM</li>
+            </Link>
+            <Link className="hero-link" to="/cowboypocketguide">
+              <li>COWBOY POCKET GUIDE</li>
+            </Link>
+            <Link className="hero-link" to="/mailchimp">
+              <li>MAILCHIMP</li>
+            </Link>
+            <Link className="hero-link" to="/codenames">
+              <li>CODENAMES</li>
+            </Link>
+            {/* <Link className="hero-link" to="/heard">
+              <li className="nav-item">HEARD</li>
+            </Link> */}
+          </ol>
+        </div>
+        <div className="info">
+        <Link className="hero-link" to="/info">
+              <li style={{color:"white"}} className="nav-item info-link">Info</li>
+            </Link>
+          
+        </div>
+      </div>
+    </div>
+    <marquee className="marquee-hero">
+      <h1 className="emily">*Emily Horrocks</h1>
+    </marquee>
+  </div>
 )
 
 export default IndexPage
