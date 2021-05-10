@@ -10,9 +10,11 @@ import TopNav from "../components/topnav"
 
 const JuniorProm = () => (
   <div>
-      <TopNav />
+    <TopNav />
     <div>
-      <h1 className="project-title">CODENAMES</h1>
+      <marquee className="work-container marquee">
+        <h1 className="project-title">CODENAMES</h1>
+      </marquee>
     </div>
     <div className="work-container">
       <div className="project-intro">
@@ -30,13 +32,7 @@ const JuniorProm = () => (
         </div>
       </div>
       <div className="project-images">
-        <video
-          loop
-          autoPlay
-          playsInline
-          muted
-          width="100%"
-        >
+        <video loop autoPlay playsInline muted width="100%">
           <source src={video} alt="video" />
         </video>
         <img src={two} alt="codename" />

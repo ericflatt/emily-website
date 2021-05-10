@@ -21,16 +21,21 @@ const JuniorProm = () => (
   <div>
     <TopNav />
     <div>
-      <h1 className="project-title">COWBOY POCKET GUIDE</h1>
+      <marquee className="work-container marquee">
+        <h1 className="project-title">COWBOY POCKET GUIDE</h1>
+      </marquee>
     </div>
     <div className="work-container">
       <div className="project-intro">
         <div>
-          Publication Design Year: 2020 <br></br> Photographer: Rachel Proctor <br></br> Model:
-          Sydney Solis
+          Publication Design Year: 2020 <br></br> Photographer: Rachel Proctor{" "}
+          <br></br> Model: Sydney Solis
         </div>
         <div>
-        This book is meant to evoke the idea of duality, combining modern cowboy fashion that is heavily prevalent in pop-culture, within the guidelines of the more traditional aspects of cowboys and cowboy culture. 
+          This book is meant to evoke the idea of duality, combining modern
+          cowboy fashion that is heavily prevalent in pop-culture, within the
+          guidelines of the more traditional aspects of cowboys and cowboy
+          culture.
         </div>
       </div>
       <div className="project-images two-column">

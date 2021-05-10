@@ -9,7 +9,7 @@ const IndexPage = () => (
     <div className="container">
       <div className="hero-nav">
         <div>
-          <h1 className="selected-works">Selected Works</h1>
+          <h1 className="selected-works">SELECTED WORKS</h1>
           <ol className="hero-list">
             <Link className="hero-link" to="/juniorprom">
               <li>JUNIOR PROM</li>

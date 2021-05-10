@@ -10,11 +10,14 @@ const IndexPage = () => (
   <div className="info">
       <TopNav />
     <div>
-      <h1 className="nice">NICE TO MEET YOU!</h1>
+        <marquee className="work-container marquee">
+        <h1 className="nice">NICE TO MEET YOU!</h1>
+
+        </marquee>
     </div>
     <div className="info-container">
       <div>
-        <p className="more-info">More Info</p>
+        <p className="more-info">MORE INFO</p>
         <ol className="info-nav">
           <a className="info-item" href="https://drive.google.com/file/d/1rpluX4RBb2-T-kPagK5y0wGsYD7OwZNI/view?usp=sharing" target="_blank">
             <li>Resume</li>

@@ -11,9 +11,11 @@ import TopNav from "../components/topnav"
 
 const JuniorProm = () => (
   <div>
-      <TopNav />
+    <TopNav />
     <div>
-      <h1 className="project-title">MAILCHIMP</h1>
+      <marquee className="work-container marquee">
+        <h1 className="project-title">MAILCHIMP</h1>
+      </marquee>
     </div>
     <div className="work-container">
       <div className="project-intro">

@@ -37,9 +37,18 @@ ol li{
   padding: 2% 5%;
 }
 
+.marquee{
+  display: block;
+  margin: auto;
+}
+
 .hero-link {
   color: white;
   font-size: 36px;
+
+  :hover{
+    text-decoration: underline;
+  }
 }
 
 .hero-list {
@@ -94,6 +103,10 @@ ol li{
 
 .project-images {
   margin-top: 50px;
+}
+
+.process-p{
+  text-transform: uppercase;
 }
 
 .process-book {
@@ -160,6 +173,11 @@ a {
 
 .info-item{
   color: black;
+  text-transform: uppercase;
+
+  :hover{
+    text-decoration: underline;
+  }
 }
 
 .info-link{
